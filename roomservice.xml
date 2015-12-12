@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remove-project name="platform_frameworks_av" />  
+  <project path="frameworks/av" name="platform_frameworks_av" remote="github" revision="mm6.0-audio" />
+  <remove-project name="platform_system_media" />  
+  <project path="system/media" name="platform_system_media" remote="github" revision="mm6.0-audio" />
+</manifest>
